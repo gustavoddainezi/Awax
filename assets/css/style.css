@@ -64,4 +64,5 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom:5px solid #b28756;
+    color: #CCC;
 }
