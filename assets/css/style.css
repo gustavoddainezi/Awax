@@ -230,3 +230,34 @@ header {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
 }
+
+.section-serviços {
+    display: flex;
+}
+
+.section-serviço {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px
+}
+
+.section-serviço h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-serviço:first-child {
+    border-left: 1px solid #333;
+}
+
+.section-serviço:Nth-child(2) {
+    margin-top: -6px;
+}
+
+.section-serviço p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999999;
+}
