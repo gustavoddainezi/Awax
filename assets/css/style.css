@@ -69,6 +69,19 @@ header {
     color: #CCC;
 }
 
+.button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
 .banner {
     height: calc(100vh - 100px);
     background-color: #333;
@@ -112,19 +125,6 @@ header {
 .banner h2 {
     text-transform: uppercase;
     margin-top: 20px;
-}
-
-.banner a {
-    display: block;
-    background-color: #b28756;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
 }
 
 .banner .sliders-pointers {
@@ -177,15 +177,14 @@ header {
 .default .section-body {
     max-width: 1140px;
     margin: auto;
-    min-height: 100px;
-    background-color: gray;
 }
 
 .default.light {
     background-color: #F7F7F7;
 }
 
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body {
     color: #000;
 }
 
@@ -193,6 +192,41 @@ header {
     background-color: #000;
 }
 
-.default.dark {
+.default.dark,
+.default.dark .section-body {
     color: #FFF;
+}
+
+
+
+
+
+
+
+/*
+    CSS DE ÁREAS ESPECÍFICAS
+*/
+
+.section-sobre {
+    display: flex;
+}
+
+.section-sobre--esquerda {
+    flex: 1;
+}
+
+.section-sobre--esquerda p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.section-sobre--direita {
+    width: 520px;
+    text-align: center;
+}
+
+.section-sobre--direita img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
