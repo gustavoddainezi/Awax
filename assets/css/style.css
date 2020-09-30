@@ -7,6 +7,7 @@
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 
 header {
@@ -148,4 +149,50 @@ header {
 
 .banner .pointer.active {
     background-color: #b28756;
+}
+
+.default {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title {
+    font-size: 20px;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 13px;
+    margin-bottom: 43px;
+}
+
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+    background-color: gray;
+}
+
+.default.light {
+    background-color: #F7F7F7;
+}
+
+.default.light .section-title {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+}
+
+.default.dark {
+    color: #FFF;
 }
