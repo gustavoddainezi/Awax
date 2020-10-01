@@ -302,3 +302,49 @@ header {
 .section-projetos--filtros li:first-child {
     border-left: 0;
 }
+
+.section-projetos--fotos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projetos--foto {
+    width: 280px;
+}
+
+.section-projetos--areafoto {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projetos--areafoto img {
+    width: inherit;
+    height: inherit;
+}
+
+.section-projetos--infofoto {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.section-projetos--infofoto h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projetos--areafoto:hover .section-projetos--infofoto {
+    display: flex;
+    cursor: pointer;
+}
