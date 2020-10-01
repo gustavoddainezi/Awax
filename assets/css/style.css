@@ -263,6 +263,7 @@ header {
 }
 
 
+
 .section-projetos {
     display: flex;
     flex-direction: column;
@@ -347,4 +348,70 @@ header {
 .section-projetos--areafoto:hover .section-projetos--infofoto {
     display: flex;
     cursor: pointer;
+}
+
+
+
+.bg-time {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-time {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-time-area {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-time .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-time .slide {
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #FFF;
+    margin-right: 18px;
+}
+
+.section-time .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.section-time-area .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-time-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-time-area .pointer.active {
+    background-color: #b28756;
 }
