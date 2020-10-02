@@ -1,3 +1,9 @@
+## 💻 Sobre
+
+<p align="justify">O projeto foi desenvolvido com o intuito de treinar o desenvolvimento de aplicações web com HTML5 e CSS3. O site consiste numa aplicação One Page responsiva para se adequar aos mais variados tamanhos de telas existentes atualmente, o site funciona como um site de comunicação/divulgação, que tem como objetivo chamar a atenção do leitor para os excelentes serviços e trabalhos que a empresa presta de maneira limpa e elegante. </p>
+
+---
+
 ### 🛠 **Tecnologias**
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
